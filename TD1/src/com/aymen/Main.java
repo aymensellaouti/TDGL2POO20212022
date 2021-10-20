@@ -5,14 +5,26 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        int[] t = new int[0];
+        // Todo Exercice 4
+        /*
+        a)  créer un point,
+        b)  en afficher les caractéristiques,
+        c)  le déplacer,
+        d)  en afficher à nouveau les caractéristiques.
+        */
+        Point p = new Point("a", 15);
+        p.affiche();
+        p.translate(14);
+        p.affiche();
         //Exercice 3
+        // int[] t = new int[0];
+
         //            -  Ali, 11, 13, 18, 7
         //            -  Faten, 15, 9, 8, 16
-        Etudiant ali = new Etudiant("Ali", new int[]{11, 13, 18, 7});
-        Etudiant faten = new Etudiant("Faten", new int[]{15, 9, 8, 16});
-        ali.estAdmis();
-        faten.estAdmis();
+//        Etudiant ali = new Etudiant("Ali", new int[]{11, 13, 18, 7});
+//        Etudiant faten = new Etudiant("Faten", new int[]{15, 9, 8, 16});
+//        ali.estAdmis();
+//        faten.estAdmis();
         //Exercice 2
 //        Vecteur v1 = new Vecteur(3);
 //        Vecteur v2 = new Vecteur(7,9);
