@@ -1,2 +1,4 @@
-package com.aymen;public class Etudiant {
+package com.aymen;
+
+public class Etudiant {
 }
