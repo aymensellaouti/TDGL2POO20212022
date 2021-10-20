@@ -6,15 +6,24 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        // Exercice 5
+//        a)  créer un point,
+//                b)  en afficher les caractéristiques,
+//        c)  le déplacer,
+//        d)  en afficher à nouveau les caractéristiques.
+        Point p = new Point('p', 4);
+        p.affiche();
+        p.translate(5);
+        p.affiche();
         /*
         * Exercice 4
         * -  Ali, 11, 13, 18, 7
           -  Faten, 15, 9, 8, 16
         * */
-        Etudiant ali = new Etudiant("Ali", new int[] {11, 13, 18, 7});
-        Etudiant faten = new Etudiant("Faten", new int[] {15, 9, 8, 16});
-        ali.result();
-        faten.result();
+//        Etudiant ali = new Etudiant("Ali", new int[] {11, 13, 18, 7});
+//        Etudiant faten = new Etudiant("Faten", new int[] {15, 9, 8, 16});
+//        ali.result();
+//        faten.result();
         /*
         Exercice 3
         * */
