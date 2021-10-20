@@ -13,11 +13,11 @@ public class Main {
 //        String s = a.toString();
 //
 //        System.out.println(s);
-        Scanner scanner = new Scanner(System.in);
-        int largeur = scanner.nextInt();
-        int longeur = scanner.nextInt();
-        Rectangle r = new Rectangle(largeur, longeur );
-        System.out.println(r.surface());
-        System.out.println(r.perimetre());
+//        Scanner scanner = new Scanner(System.in);
+//        int largeur = scanner.nextInt();
+//        int longeur = scanner.nextInt();
+//        Rectangle r = new Rectangle(largeur, longeur );
+//        System.out.println(r.surface());
+//        System.out.println(r.perimetre());
     }
 }
