@@ -33,6 +33,7 @@ public class Voiture extends Vehicule {
         int isMoins10 = marque == "Renault" || marque == "Fiat" ? 1 : 0;
         int isPlus20 = (Objects.equals(marque, "Ferrari") || Objects.equals(marque, "Porsche")) ? 1 : 0;
         prixCourant = prixAchat * ( 100 - (percent5Number * 5) - (isMoins10 * 10) + (isPlus20 * 20) ) / 100;
+        System.out.println(prixCourant);
     }
 
 }
