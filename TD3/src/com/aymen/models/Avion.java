@@ -15,6 +15,11 @@ public class Avion extends Vehicule {
         this.type = type;
         this.nbreHeureVol = nbreHeureVol;
     }
+
+//    public void voler() {
+//        System.out.println("Je vole");
+//    }
+
     @Override
     public void afficher() {
         super.afficher();
